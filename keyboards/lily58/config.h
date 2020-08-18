@@ -34,5 +34,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIODE_DIRECTION COL2ROW
 
+#define ENCODERS_PAD_A { F4 }
+#define ENCODERS_PAD_B { F5 }
+#define ENCODER_RESOLUTION 4
+
 // Use the lily version to get the Lily58 logo instead of the qmk logo
 #define OLED_FONT_H "lib/glcdfont_lily.c"
